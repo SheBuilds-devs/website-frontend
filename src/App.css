@@ -1,0 +1,8 @@
+.animation {
+    z-index: 5;
+}
+#bg0{
+    width: 100%;
+
+    background-image: url(/public/bg0.png);
+}
