@@ -22,7 +22,9 @@
     
     /* opacity: 14%; */
 }
-
+a {
+    text-decoration: none;
+}
 .card--image img{
     opacity: 100%;
     height: 250px;

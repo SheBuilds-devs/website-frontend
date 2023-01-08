@@ -5,8 +5,8 @@ function Navbar() {
     <div className='main'>
       <div class="nav">
         <a href="#">Courses</a>
-        <a href="#">Opportunities</a>
-        <a href="#">Github</a>
+        <a href="https://telling-cattle-a8d.notion.site/Opportunities-7982a9206618407b932cfeb95d00b9c8">Opportunities</a>
+        <a href="https://github.com/SheBuilds-devs">Github</a>
       </div>
 
         <div class="im">
