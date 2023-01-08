@@ -1,8 +1,9 @@
 import React from 'react'
 import '../styles/Card.css'
-function Card({image, title}) {
+function Card({image, title, link}) {
   return (
     <div>
+      <a href={link}>
         <div className='card'>
             <div className='card--image'>
                 <img src={image} alt="" />
@@ -10,6 +11,7 @@ function Card({image, title}) {
             <span className='card--title'>{title}</span>
             <img src="../src/assets/arrow.png" alt="" className='arrow' />
         </div>
+      </a>
     </div>
   )
 }

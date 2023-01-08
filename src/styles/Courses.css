@@ -1,33 +1,34 @@
-* {
+html.body {
+    margin: 0;
     padding: 0;
-    border: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 html,body {
     width: 100%;
     height: 100%;
-    border: 1px solid #000;
 }
 
-body {
-    background-color: #fbc4c1;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #000;
-    text-align: center;
-}
+
 
 .heading {
+    text-align: center;
     display: block;
     font-size: 4rem;
     font-weight: 800;
-    margin: 50px;
+    margin-top: 10px;
     color: #D93C68;
     font-family: 'Secular One', sans-serif;
     -webkit-text-stroke: 0.00001px #000; 
 }
-
+.course_page{
+    padding-top: 70px;
+    height: 100vh;
+    background-color: #fbc4c1;
+}
 .courses {
 
     display: flex;

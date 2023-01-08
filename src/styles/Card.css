@@ -45,6 +45,11 @@
     animation: arrowMove 1s infinite; 
 }
 
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
 @keyframes arrowMove {
 
     0% {

@@ -16,7 +16,7 @@ function Courses() {
   
 
   return (
-    <div>
+    <div className='course_page'>
         <span className='heading'>Our Courses</span>
         <section className='courses'>
             {cardElement}

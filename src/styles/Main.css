@@ -1,0 +1,56 @@
+body{
+    background: url('../assets/mainbg.jpg');
+    background-size: cover;
+}
+.main {
+    height: 100vh;
+}
+.nav{
+    overflow: hidden;
+    /* background: #fff; */
+    /* margin-top: -10px; */
+}
+.nav a{
+    font-family: 'Manroped', sans-serif;
+    color:#000;
+    text-align:center;
+    padding:20px 25px;
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    margin-left: 250px;
+}
+
+.nav a:hover{
+    /* background:purple; */
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    /* box-shadow: #fff 0px 0px 10px 0px; */
+}
+
+h1{
+    /* display: flex;
+    /* justify-content: center; */
+    /* margin-left: 350px;
+    margin-top: 300px; */ 
+    font-size: 100px;
+    font-family:'Righteous', cursive;
+
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right: 300px;
+}
+.im {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid #000; */
+}
